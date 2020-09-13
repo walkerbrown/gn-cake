@@ -1,0 +1,12 @@
+config("cxx_std") {
+  cflags_cc = [
+    "-std=c++2a",
+    "-Wpedantic"
+  ]
+}
+
+group("example-set") {
+  deps = [
+    "//src/hello_world",
+  ]
+}

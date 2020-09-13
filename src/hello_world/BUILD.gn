@@ -1,0 +1,8 @@
+executable("hello_world") {
+  sources = [
+    "hello_world.cc",
+  ]
+  configs += [
+    "//:cxx_std"
+  ]
+}

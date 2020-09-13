@@ -1,0 +1,7 @@
+# The location of the build configuration file.
+buildconfig = "//build/BUILDCONFIG.gn"
+
+default_args = {
+  # Default to debug builds for this project.
+  is_debug = true
+}
