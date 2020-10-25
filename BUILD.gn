@@ -1,12 +1,19 @@
 config("cxx_std") {
   cflags_cc = [
     "-std=c++2a",
-    "-Wpedantic"
+    "-Wpedantic",
+    "-g"
   ]
 }
 
 group("example-set") {
   deps = [
     "//src/hello_world",
+  ]
+}
+
+group("arrays-strings") {
+  deps = [
+    "//src/arrays_strings:merging_meeting_times",
   ]
 }

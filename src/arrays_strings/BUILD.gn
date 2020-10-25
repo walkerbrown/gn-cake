@@ -1,0 +1,11 @@
+executable("merging_meeting_times") {
+  sources = [
+    "merging_meeting_times.cpp",
+  ]
+  include_dirs = [
+    "//src/include"
+  ]
+  configs += [
+    "//:cxx_std"
+  ]
+}
