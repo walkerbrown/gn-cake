@@ -9,3 +9,15 @@ executable("merging_meeting_times") {
     "//:cxx_std"
   ]
 }
+
+executable("string_reverse") {
+  sources = [
+    "string_reverse.cpp",
+  ]
+  include_dirs = [
+    "//src/include"
+  ]
+  configs += [
+    "//:cxx_std"
+  ]
+}

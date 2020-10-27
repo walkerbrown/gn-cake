@@ -15,5 +15,6 @@ group("example-set") {
 group("arrays-strings") {
   deps = [
     "//src/arrays_strings:merging_meeting_times",
+    "//src/arrays_strings:string_reverse"
   ]
 }
