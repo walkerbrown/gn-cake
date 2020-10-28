@@ -21,3 +21,15 @@ executable("string_reverse") {
     "//:cxx_std"
   ]
 }
+
+executable("words_reverse") {
+  sources = [
+    "words_reverse.cpp",
+  ]
+  include_dirs = [
+    "//src/include"
+  ]
+  configs += [
+    "//:cxx_std"
+  ]
+}
