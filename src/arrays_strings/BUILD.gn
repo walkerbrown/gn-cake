@@ -33,3 +33,15 @@ executable("words_reverse") {
     "//:cxx_std"
   ]
 }
+
+executable("merge_sorted_arrays") {
+  sources = [
+    "merge_sorted_arrays.cpp",
+  ]
+  include_dirs = [
+    "//src/include"
+  ]
+  configs += [
+    "//:cxx_std"
+  ]
+}
